@@ -17,7 +17,7 @@ public class DuplicateChar {
 		for(char c:k.toCharArray()) {
 			if(!v.add(c)) {
 				m.add(c);
-				i=i+1;
+				
 			}
 			else {
 				v.add(c);
